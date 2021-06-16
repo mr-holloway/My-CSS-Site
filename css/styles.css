@@ -1,0 +1,159 @@
+/* Tag Selectors */
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+body {
+    color: #40514E;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: "Sacramento", cursive;
+    font-size: 4rem;
+    margin: 30px auto 0;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #11999E;
+}
+
+hr {
+    border-style: dotted;
+    border-bottom-style: none;
+    border-width: 5px;
+    border-color: grey;
+    margin: 70px auto;
+    width: 5%;
+}
+
+p {
+    line-height: 2;
+}
+
+
+/* ID Selectors */
+
+
+/* Class Selectors */
+
+.bottom-cloud {
+    position: absolute;
+    left: 270px;
+    top: 330px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-top: 100px;
+    padding: 30px 0;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Montserrat;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.contact-message {
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+.copyright {
+    margin: 30px auto 0;
+    color: #EAF6F6;
+}
+
+.chillies-image {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.computer-image {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.footer-link {
+    margin: 0 10px;
+    color: #11999E;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.profile-pic {
+    height: 400px;
+    width: 420px;
+}
+
+.skill-row {
+    margin: 130px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+}
+
+.web-dev {
+    font-weight: bold;
+    margin: 21px auto 20px;
+}
